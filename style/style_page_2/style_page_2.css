@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 1fr 10vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 10vw 10vw;
+  justify-content: space-between;
+  align-items: end;
+  padding: 2vw;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 5vh 50vh 25vh;
+  justify-content: center;
+  gap: 4vw;
+}
+main .heading {
+  grid-column: 1/4;
+}
+main .subscription {
+  background-color: #EC615B;
+  display: grid;
+  padding: 1vw;
+}
+main .subscription .Name {
+  color: white;
+}
+main .subscription .mb-3 {
+  width: 20vw;
+}
+main .subscription .btn {
+  border-radius: 70px;
+  font-size: small;
+}
+
+nav {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 8vw 7vw 7vw 7vw;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #5222D0;
+}/*# sourceMappingURL=style_page_2.css.map */
