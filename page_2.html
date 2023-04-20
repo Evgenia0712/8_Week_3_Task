@@ -24,103 +24,102 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="header__logo logo">
             <img src="./assets/images/logo.svg">
         </div>
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="header__button btn btn-primary">
             Корзина
             <img src="./assets/images/basket.svg">
         </button>
     </header>
-    <main>
-        <div class="heading">
+    <main class="main">
+        <div class="main__heading">
             <h1>ВОЗМОЖНОСТИ</h1>
         </div>
-        <div>
-            <div>
-                <img class="Illustration" src="./assets/images/Illustration_1.png" alt="Illustration_1">
+
+        <div class="main__cards card">
+            <div class="card__wrapper-img">
+                <img class="card__Illustration" src="./assets/images/Illustration_1.png" alt="Illustration_1">
             </div>
-            <div>
-                <h3>БЕЗ ПРОВОДОВ</h3>
-            </div>
-            <div>
-                <p>
+            <div class="card__wrapper-info">
+                <h3 class="card__title">БЕЗ ПРОВОДОВ</h3>
+                <p class="card__text">
                     Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы
                     расставить трекеры.
                 </p>
             </div>
         </div>
-        <div>
-            <div>
-                <img class="Illustration" src="./assets/images/Illustration_2.png" alt="Illustration_2">
+
+        <div class="main__cards card">
+            <div class="card__wrapper-img">
+                <img class="card__Illustration" src="./assets/images/Illustration_2.png" alt="Illustration_2">
             </div>
-            <div>
-                <h3>БЕЗ КОМПЬЮТЕРА</h3>
-            </div>
-            <div>
-                <p>
+            <div class="card__wrapper-info">
+                <h3 class="card__title">БЕЗ КОМПЬЮТЕРА</h3>
+                <p class="card__text">
                     Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из
                     облака, поэтому просто наслаждайтесь.
                 </p>
             </div>
         </div>
-        <div>
-            <div>
-                <img class="Illustration" src="./assets/images/Illustration_3.png" alt="Illustration_3">
+
+        <div class="main__cards card">
+            <div class="card__wrapper-img">
+                <img class="card__Illustration" src="./assets/images/Illustration_3.png" alt="Illustration_3">
             </div>
-            <div>
-                <h3>ДО 10 ЧАСОВ РАБОТЫ</h3>
-            </div>
-            <div>
-                <p>
+            <div class="card__wrapper-info">
+                <h3 class="card__title">ДО 10 ЧАСОВ РАБОТЫ</h3>
+                <p class="card__text">
                     Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы
                     играете в самые ресурсоемкие игры.
                 </p>
             </div>
         </div>
-        <div>
-            <div>
-                <h3>СОТНИ ИГР</h3>
-            </div>
-            <div>
-                <p>
+
+        <div class="main__cards card">
+            <div class="card__wrapper-info">
+                <h3 class="card__title">СОТНИ ИГР</h3>
+                <p class="card__text">
                     Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых
                     проектов. Скоро их станет еще больше.
                 </p>
             </div>
         </div>
-        <div>
-            <div>
-                <h3>ПОЧТИ ДАРОМ</h3>
-            </div>
-            <div>
-                <p>
+
+        <div class="main__cards card">
+            <div class="card__wrapper-info">
+                <h3 class="card__title">ПОЧТИ ДАРОМ</h3>
+                <p class="card__text">
                     По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном
                     компьютере.
                 </p>
             </div>
         </div>
-        <div class="subscription">
-            <div class="Name">
-                <h3>НОВОСТИ</h3>
+
+        <div class="main__sbs subscription">
+            <div class="subscription__Name">
+                <h3 class="subscription__title">НОВОСТИ</h3>
             </div>
-            <div class="mb-3">
+            <div class="subscription__mb-3 mb-3">
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Эл. почта">
             </div>
             <div>
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="subscription__button btn btn-primary">
                     ПОДПИСАТЬСЯ
                 </button>
             </div>
         </div>
     </main>
-    <nav>
-        <a class="navigation" href="#">Возможности</a>
-        <a class="navigation" href="#">Где купить</a>
-        <a class="navigation" href="#">Доставка</a>
-        <a class="navigation" href="#">Помощь</a>
-    </nav>
+
+    <footer class="footer">
+        <nav class="footer__nav nav">
+            <a class="nav__link" href="#">Возможности</a>
+            <a class="nav__link" href="#">Где купить</a>
+            <a class="nav__link" href="#">Доставка</a>
+            <a class="nav__link" href="#">Помощь</a>
+        </nav>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

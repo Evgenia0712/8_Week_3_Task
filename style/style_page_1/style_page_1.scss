@@ -35,18 +35,19 @@ main {
         align-items: center;
     }
 
-    .background_img {
+    .aside__images {
         height: 75vh;
     }
 }
 
-nav {
-    width: 50%;
+.navigation {
     display: grid;
     grid-template-columns: 8vw 7vw 7vw 7vw;
-    justify-content: center;
+    justify-content: start;
+    padding-left: 5vw;
+    column-gap: 2vw;
 
-    a {
+    .navigation__link {
         text-decoration: none;
         color: #5222D0;
     }

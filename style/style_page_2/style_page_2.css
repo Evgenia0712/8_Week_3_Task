@@ -8,6 +8,15 @@ body {
   padding: 0;
 }
 
+.btn {
+  border-radius: 70px;
+  font-size: small;
+}
+
+.cards {
+  border: none;
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr;
@@ -15,7 +24,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-header {
+.header {
   display: grid;
   grid-template-columns: 10vw 10vw;
   justify-content: space-between;
@@ -23,40 +32,42 @@ header {
   padding: 2vw;
 }
 
-main {
+.main {
   display: grid;
   grid-template-columns: 25vw 25vw 25vw;
   grid-template-rows: 5vh 50vh 25vh;
   justify-content: center;
   gap: 4vw;
 }
-main .heading {
+.main__heading {
   grid-column: 1/4;
 }
-main .subscription {
+.main__cards {
+  border: none;
+}
+.main .subscription {
   background-color: #EC615B;
   display: grid;
   padding: 1vw;
 }
-main .subscription .Name {
+.main .subscription__Name {
   color: white;
 }
-main .subscription .mb-3 {
+.main .subscription__mb-3 {
   width: 20vw;
 }
-main .subscription .btn {
-  border-radius: 70px;
-  font-size: small;
-}
 
-nav {
+.footer {
+  margin-top: 5vh;
+}
+.footer .nav {
   width: 50%;
   display: grid;
   grid-template-columns: 8vw 7vw 7vw 7vw;
   justify-content: center;
   align-items: center;
 }
-nav a {
+.footer .nav__link {
   text-decoration: none;
   color: #5222D0;
 }/*# sourceMappingURL=style_page_2.css.map */

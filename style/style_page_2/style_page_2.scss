@@ -8,6 +8,16 @@ body {
     padding: 0;
 }
 
+.btn {
+    border-radius: 70px;
+    font-size: small;
+}
+
+.cards {
+    border: none;
+}
+
+
 body {
     display: grid;
     grid-template-columns: 1fr;
@@ -15,7 +25,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
+.header {
     display: grid;
     grid-template-columns: 10vw 10vw;
     justify-content: space-between;
@@ -23,15 +33,19 @@ header {
     padding: 2vw;
 }
 
-main {
+.main {
     display: grid;
     grid-template-columns: 25vw 25vw 25vw;
     grid-template-rows: 5vh 50vh 25vh;
     justify-content: center;
     gap: 4vw;
 
-    .heading {
+    &__heading {
         grid-column: 1/4;
+    }
+
+    &__cards {
+        border: none;
     }
 
     .subscription {
@@ -39,30 +53,29 @@ main {
         display: grid;
         padding: 1vw;
 
-        .Name {
+        &__Name {
             color: white;
         }
 
-        .mb-3 {
+        &__mb-3 {
             width: 20vw;
-        }
-
-        .btn {
-            border-radius: 70px;
-            font-size: small;
         }
     }
 }
 
-nav {
-    width: 50%;
-    display: grid;
-    grid-template-columns: 8vw 7vw 7vw 7vw;
-    justify-content: center;
-    align-items: center;
+.footer {
+    margin-top: 5vh;
 
-    a {
-        text-decoration: none;
-        color: #5222D0;
+    .nav {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 8vw 7vw 7vw 7vw;
+        justify-content: center;
+        align-items: center;
+
+        &__link {
+            text-decoration: none;
+            color: #5222D0;
+        }
     }
 }

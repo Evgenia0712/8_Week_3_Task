@@ -34,17 +34,19 @@ main .info {
   justify-content: center;
   align-items: center;
 }
-main .background_img {
+main .aside__images {
   height: 75vh;
 }
 
-nav {
-  width: 50%;
+.navigation {
   display: grid;
   grid-template-columns: 8vw 7vw 7vw 7vw;
-  justify-content: center;
+  justify-content: start;
+  padding-left: 5vw;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
 }
-nav a {
+.navigation .navigation__link {
   text-decoration: none;
   color: #5222D0;
 }/*# sourceMappingURL=style_page_1.css.map */
