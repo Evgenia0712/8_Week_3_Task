@@ -11,6 +11,10 @@ body {
 .btn {
   border-radius: 70px;
   font-size: small;
+  height: 5vh;
+  width: 10vw;
+  background-color: rgb(58, 118, 238);
+  border: none;
 }
 
 .cards {
@@ -44,6 +48,12 @@ body {
 }
 .main__cards {
   border: none;
+}
+.main .card__wrapper-img {
+  width: 100%;
+}
+.main .card__wrapper-img__Illustration {
+  width: 100%;
 }
 .main .subscription {
   background-color: #EC615B;
